@@ -16,3 +16,9 @@ class MinimumAgeError(DomainException):
     """Raised when the user is below the minimum age."""
 
     pass
+
+
+class UserNotFoundError(DomainException):
+    """Raised when a user record is not found in the database."""
+
+    pass
